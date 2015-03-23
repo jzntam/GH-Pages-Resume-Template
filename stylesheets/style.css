@@ -24,6 +24,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
 }
 
+span, a, li {
+  font-family: 'Droid', sans-serif;
+  font-size: 16px;
+}
+
 ul {
   margin-left: 0;
   padding-left: 20px;
@@ -31,11 +36,19 @@ ul {
 
 li {
   margin-left: 0;
+  padding-bottom: 10px;
 }
 
 .container {
-  width: 650px;
+  /*width: 650px;*/
   margin: 0 auto;
+}
+
+.phone-number {
+  vertical-align: middle;
+}
+.email-address {
+  vertical-align: bottom;
 }
 
 .my-name {
@@ -57,18 +70,21 @@ li {
 .contact {
   font-family: 'Droid Serif', serif;
   width: 250px;
-  margin-top: 28px;
+  margin-top: 25px;
   /*position: absolute;*/
   /*top: 35px;*/
   /*right: 15px;*/
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .icon {
-  font-size: 18px;
+  font-size: 25px;
   display: inline-block;
   width: 16px;
+  vertical-align: middle;
+  padding-right: 25px;
 }
+
 
 .left-column {
   width: 400px;
@@ -83,13 +99,13 @@ li {
   vertical-align: top;
 }
 
-.only-small {
+/*.only-small {
   display: none;
 }
 
 .only-big {
   display: none;
-}
+}*/
 
 /* Media Queries */
 @media all and (max-width: 421px) {
